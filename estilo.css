@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+   }
+
+html,body {
+    margin: 0;
+}
+
+body {
+    
+    font-family: 'PT Sans', sans-serif;
+    background-color:black;
+    height: 100vh;
+}
+
+/*-----HEAD------*/
+.banner {
+  background-image:url('./img/backgroundcarla2.png'); 
+  background-size: 1550px; 
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 100vh;
+}
+
+/*texto*/
+.banner-text{
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+}
+
+
+
+ /*section - text*/
+.banner h1{
+  color: white;
+  font-family: 'Varela Round';
+  font-size: large;
+  text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+  
+  
+  
+}
+
+/*texto*/
+.banner p {
+  margin-bottom: 150px;
+  color:red;
+}
+
+/*botão*/
+.banner a {
+    color: black;
+    text-decoration: unset;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid black;
+    font-family: 'PT Sans';
+    height: 100vh;
+
+}
+
+.banner a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.sobre-mim {
+
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 110px 0;
+    color: grey;
+}
+
+/*texto do sobre mim apenas*/
+.minhas-habilidades {
+    display: flex;
+    color: white;
+}
+
+a { color: inherit; } 
+
+a:hover {
+    color: grey;
+}
+
+/*Quadrado geral dos textos*/
+.minhas-habilidades_sobre {
+    max-width: 40%;
+        
+    
+}
+
+.competencias{
+    display: flex;
+}
+
+/*>>>>>>>itens da skills COR */
+.minhas-habilidades_itens{
+    color:whitesmoke;
+}
+
+/*>>>>>>titulo de Skills*/
+.minhas-habilidades_itens #skills{
+    color: grey;
+}
+
+ 
+
+/*ajuste do espaçamento entre texto e skills */
+.minhas-habilidades_itens {
+    margin-left: 10%;
+    
+}
+
+/*---------------------------------REDES SOCIAS------*/
+.redes-sociais_item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.redes-sociais_linkedin,
+.redes-sociais_github {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.redes-sociais_item a {
+    text-decoration: unset;
+}
+
+.redes-sociais_item img {
+    max-height: 50px;
+}
+
+/*---------------------------------FOOTER-------*/
+footer p {
+    text-align: center;
+    background-color: #8a8888;
+    color: #000;
+    margin: 0;
+    padding: 5px 0;    
+}
